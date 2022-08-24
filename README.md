@@ -1,7 +1,7 @@
 
-#Proyecto personal 
+#Proyecto personal# 
 
-##Miguel Alejandro Adrian Nuñez
+##Miguel Alejandro Adrian Nuñez##
 
 Este será mi  proyecto personal, en el cual estaré trabajando continuamente.
 
