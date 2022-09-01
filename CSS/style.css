@@ -1,129 +1,49 @@
-.navegador{
-    color:aliceblue;
-    width:100%;
-    background: rgba(111,30,240,50%);
-    clear: both;
-    padding: 0.5em;
-    text-align: right;
-    box-sizing: border-box;
+.container ul{
+    border: solid round;
+    text-align: center;
+}
+
+.container li{
+    border-top: solid;
+    border-bottom: solid;
+}
+
+.container a{
     text-decoration: none;
-    font-family:'Courier New', Courier, monospace; 
-    border: 2em;
-    border-color:brown;
+    color: black;
+    
 }
-
-.navegador a{
-    text-decoration: none;
-    color: azure;
-    padding: 0.5em;
-    text-align: center;
-    margin: 50px;
-    box-sizing: border-box;
-    clear:both;
-    border: 2em;
-    border-color: brown;
-}
-
-#html5 a:link, a:visited{
-    background-color:orange;
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-}
-
-#css a:link,a:visited{
-    background-color: rgb(45, 121, 221);
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration:none;
-}
-#javascript a:link,a:visited{
-    background-color: rgb(233, 201, 18);
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-}
-
-#html5 a:hover, a:active{
-    background-color:orange;
-    padding: 15px 20px;
-    text-align: center;
-}
-
-#css a:hover,a:active{
-    background-color: rgb(45, 121, 221);
-    padding: 15px 20px;
-    text-align: center;
-}
-#javascript a:hover,a:active{
-    background-color: rgb(233, 201, 18);
-    padding: 15px 20px;
-    text-align: center;
-}
-
-
-
-
-.encabezados h1{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50 px;
-    text-align: center;
-    width: 100%;
-    background-color:rgba(111,70,340,35%);
-    box-sizing: border-box;
-    clear:both;
-    animation: alternate;
-}
-.encabezados h2{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 40 px;
+.container h1{
     text-align:center;
-    width:100%;
-    background-color: rgba(111,90,340, 25%)
-
-}
-.contenedor-columnas{
-    width: 100%;
-    margin: auto;
-
-}
-
-.columnas{
-    width:33.333%;
-    float: left;
-    text-align:center
-}
-.columnas h3{
-    font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-overflow: ellipsis;
-}
-
-.columnas h5{
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.columnas a{
-    text-decoration: underline;
+    color:blueviolet;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 2em;
-    border: 1em;
-    margin: 1em;
-
-
+    font-size: 42px;
+    font-weight: bolder;
 }
-#pie footer{
-      /* (C1) FIXED AT BOTTOM */
-  position: fixed;
-  bottom: 0; left: 0; z-index: 9;
-
-  /* (C2) DIMENSIONS */
-  width: 100%; height: 40px;
-
-  /* (C3) CENTER TEXT */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container h2{
+    text-align:center;
+    color: blueviolet;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
+.container h4{
+    text-align:center;
+    color: blueviolet;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
 
+.list-group h5{
+    text-align:center;
+}
+
+img{
+    object-fit:cover;
+}
+
+.container img{
+    object-fit:cover;
+}
